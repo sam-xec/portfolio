@@ -117,10 +117,10 @@ html,body{
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
 }
-i{
+.list i,img{
     transition: 0.3;
 }
-h3:hover i{
+.list h3:hover i,img{
     color: white;
 }
 
